@@ -1,9 +1,19 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { CiSearch } from "react-icons/ci";
+import { IoMenu } from "react-icons/io5";
+import { IoMdClose } from "react-icons/io";
 
 const Nav = () => {
+
+  const [dropDown, setDropDown]=useState(true);
+
+  const toggleDropDown=()=>{
+    setDropDown(!dropDown)
+  }
+
+
   return (
     <div>
       {/* desktop nav */}
@@ -79,8 +89,29 @@ const Nav = () => {
     </nav>
 
     {/* mobile nav */}
-    <div></div>
-    
+    <div className="flex md:hidden items-center justify-between p-[1rem] shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
+      <div>
+        <h1 className="font-bold text-xl">Menu</h1>
+      </div>
+
+      <div  className="flex items-center">
+        <p onClick={toggleDropDown} className="text-2xl"><IoMenu /></p>
+        {dropDown===true? 
+        
+        <div>
+          {/* <IoMdClose/> */}
+        </div> : 
+        
+        <div className="absolute top-0 left-0 bg-white opacity-20/40 space-y-6 pt-12 px-28 h-screen">
+          <p>Home</p>
+          <p>Posts</p>
+          <p>About</p>
+          <p>Contact</p>
+        </div>}
+        
+      </div>
+    </div>
+
     </div>
   );
 };

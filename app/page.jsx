@@ -16,7 +16,7 @@ const Blog=()=>{
           <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content">
           {/* Page content here */}
-          <label htmlFor="my-drawer-4" className="drawer-button cursor-pointer text-2xl md:text-4xl dark:hover:text-black  btn-primary"><FaUserPlus/></label>
+          <label htmlFor="my-drawer-4" className="drawer-button cursor-pointer text-2xl md:text-4xl dark:hover:text-black  btn-primary animate-pulse"><FaUserPlus/></label>
         </div>
         <div className="drawer-side">
         <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
@@ -177,7 +177,7 @@ const Blog=()=>{
 
 
       <Link href='#top'>
-        <div className="w-[10px] rounded-full px-6 py-4 bg-[#3177A3] items-center justify-center ring-8 hover:ring-red-300   flex fixed right-10 bottom-5"><span className="font-bold "><FaArrowUp /></span></div>
+        <div className="w-[10px] rounded-full px-6 py-4 bg-[#3177A3] items-center justify-center ring-8 hover:ring-red-300   flex fixed right-10 bottom-5 animate-pulse"><span className="font-bold "><FaArrowUp /></span></div>
       </Link>
     </div>
   )
