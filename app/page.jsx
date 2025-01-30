@@ -8,15 +8,15 @@ import { SocialIcon } from "react-social-icons";
 
 const Blog=()=>{
   return(
-    <div className="px-[12rem] py-10">
+    <div className="px-[1rem] lg:px-[12rem] py-10">
       <div className="flex items-center ">
-        <h1 className="font-bold text-4xl py-5">Louis's Blog.</h1>
+        <h1 className="font-bold text-2xl md:text-4xl py-5">Louis's Blog.</h1>
 
         <div className="drawer drawer-end flex items-center justify-center x-auto w-fit ml-auto ">
           <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content">
           {/* Page content here */}
-          <label htmlFor="my-drawer-4" className="drawer-button cursor-pointer text-4xl dark:hover:text-black  btn-primary"><FaUserPlus/></label>
+          <label htmlFor="my-drawer-4" className="drawer-button cursor-pointer text-2xl md:text-4xl dark:hover:text-black  btn-primary"><FaUserPlus/></label>
         </div>
         <div className="drawer-side">
         <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
@@ -108,8 +108,8 @@ const Blog=()=>{
             />
           </div>
 
-          <div className="px-[8rem]">
-            <h1 className="font-semibold text-2xl py-6">Why I Want to Be a Front-End Developer and How HNG Will Help Me Achieve My Goals?</h1>
+          <div className="px-[1rem] md:px-[8rem]">
+            <h1 className="font-semibold text-base md:text-2xl py-6">Why I Want to Be a Front-End Developer and How HNG Will Help Me Achieve My Goals?</h1>
 
             <p>Front-end development is like an adventure that excites me because it is a perfect blend of creativity and problem-solving. It is not just about writing code but rather making sure the user is satisfied after usage. Every time I build a responsive website or add some animations, I get this satisfaction that reminds me of how my work directly impacts people and how they interact with technology. Everyday, technology keeps evolving with new frameworks and tools making every day a learning experience. For me, front-end development is not just a job, it is a passion for continuous growth and learning.</p>
 
@@ -126,8 +126,9 @@ const Blog=()=>{
             <Image/>
           </div> */}
 
-          <div className="px-[8rem]">
-            <h1 className="font-semibold text-2xl py-6">How would HNG help me grow in the Frontend Development?</h1>
+          <div className="px-[1rem] md:px-[8rem]">
+            <h1 className="font-semibold text-base md:text-2xl py-6">How would HNG help me grow in the Frontend Development?</h1>
+
             <p>Everyone wants to level up and to truly level up, i need a well structured learning environment, real-world projects to solve real world problems and steady collaboration with other developers to enhance my skills. Knowning the fact that being self-taught has its limits, I am excited about the upcoming HNG Internship.</p>
             <p>HNG provides hands-on experience with HTML, CSS, JavaScript, and modern frameworks where i can apply these acquired knowledge in a team setting, reviewing codes and most importantly i would be getting direct mentorship from HNG. </p>
 
@@ -146,8 +147,9 @@ const Blog=()=>{
             <Image/>
           </div> */}
 
-          <div className="px-[8rem]">
-            <h1 className="font-semibold text-2xl py-6">My goals for the HNG12 Frontend development internship and how i plan to achieve them?</h1>
+          <div className="px-[1rem] md:px-[8rem]">
+            <h1 className="font-semibold text-base md:text-2xl py-6">My goals for the HNG12 Frontend development internship and how i plan to achieve them?</h1>
+            
             <p>Also, HNG intership goes beyond coding, focus on job readiness, helps build a solid portfolio and prepares her interns for technical interviews. By the end of the program, I will be equipped to contribute to teams confidently and solve real problems efficiently. I am ready to dive in, refine my skills, and take the next step in becoming a frontend developer with help from HNG12.</p>
 
             <div className="pt-6">

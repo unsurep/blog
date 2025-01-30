@@ -19,10 +19,17 @@ const Footer = () => {
   
           {/* Center - Social Icons */}
           <div className="flex space-x-4">
-            <SocialIcon url="https://linkedin.com/in/louisvwede" target="_blank" />
-            <SocialIcon url="https://github.com/unsurep" target="_blank" />
-            <SocialIcon url="https://x.com/LVwedee" target="_blank" />
-            <SocialIcon url="https://www.tiktok.com/@onesureplayer?_t=ZM-8tSCSG1nYjG&_r=1" target="_blank" />
+            <SocialIcon url="https://linkedin.com/in/louisvwede" target="_blank"  network="linkedin"
+            style={{ height: 40, width: 40 }} />
+
+            <SocialIcon url="https://github.com/unsurep" target="_blank" network="github"
+            style={{ height: 40, width: 40 }} />
+
+            <SocialIcon url="https://x.com/LVwedee" target="_blank" network="x"
+            style={{ height: 40, width: 40 }}/>
+
+            <SocialIcon url="https://www.tiktok.com/@onesureplayer?_t=ZM-8tSCSG1nYjG&_r=1" target="_blank" network="tiktok"
+            style={{ height: 40, width: 40 }}/>
             
           </div>
   
@@ -38,4 +45,3 @@ const Footer = () => {
   export default Footer;
   
 
-//   A Blog post on Why I Want to Be a Front-End Developer and How HNG Will Help Me Achieve My Goals
