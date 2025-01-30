@@ -12,7 +12,7 @@ const Blog=()=>{
       <div className="flex items-center ">
         <h1 className="font-bold text-2xl md:text-4xl py-5">Louis's Blog.</h1>
 
-        <div className="drawer drawer-end flex items-center justify-center x-auto w-fit ml-auto ">
+        <div className="drawer drawer-end flex items-center justify-center x-auto w-fit ml-auto z-50 ">
           <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content">
           {/* Page content here */}
@@ -111,7 +111,7 @@ const Blog=()=>{
           <div className="px-[1rem] md:px-[8rem]">
             <h1 className="font-semibold text-base md:text-2xl py-6">Why I Want to Be a Front-End Developer and How HNG Will Help Me Achieve My Goals?</h1>
 
-            <p>Front-end development is like an adventure that excites me because it is a perfect blend of creativity and problem-solving. It is not just about writing code but rather making sure the user is satisfied after usage. Every time I build a responsive website or add some animations, I get this satisfaction that reminds me of how my work directly impacts people and how they interact with technology. Everyday, technology keeps evolving with new frameworks and tools making every day a learning experience. For me, front-end development is not just a job, it is a passion for continuous growth and learning.</p>
+            <p>Front-end development is like an adventure that excites me because it is a perfect blend of creativity and problem-solving, giving me the ability to creatively , dynamically render my imagination into solving real world problems. It is not just about writing code but rather making sure the user is satisfied after usage. Every time I build a responsive website or add some animations, I get this satisfaction that reminds me of how my work directly impacts people and how they interact with technology. Everyday, technology keeps evolving with new frameworks and tools making every day a learning experience. For me, front-end development is not just a job, it is a passion for continuous growth and learning.</p>
 
             <div className="pt-6">
               <button className="border border-orange-400 rounded-full px-4 py-2 hvr-grow">Continue Reading...</button>
@@ -162,7 +162,7 @@ const Blog=()=>{
       {/* citation */}
 
       <div className="mt-10 text-center">
-        <h3 className="text-lg font-bold py-4">For interactive UIs,you can Hire a Developers to speed up development </h3>
+        <h3 className="text-lg font-bold py-4">For interactive UIs,you can Hire a Developer to speed up development.</h3>
         <ul className="">
           <li><Link href="https://hng.tech/hire/reactjs-developers" className="text-blue-500 hover:underline">Hire React.js Developers</Link></li>
           <li><Link href="https://hng.tech/hire/nextjs-developers" className="text-blue-500 hover:underline">Hire Next.js Developers</Link></li>
@@ -171,7 +171,7 @@ const Blog=()=>{
 
           <li><Link href="https://hng.tech/hire/web-developers" className="text-blue-500 hover:underline">Hire Web Developer</Link></li>
           <li><Link href="https://hng.tech/hire/css-developers" className="text-blue-500 hover:underline">Hire CSS Developers</Link></li>
-          <li><Link href="https://hng.tech/hire/ui-developers" className="text-blue-500 hover:underline">Hire UI Developers</Link></li>
+          
         </ul>
       </div>
 

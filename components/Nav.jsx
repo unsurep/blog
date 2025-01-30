@@ -83,7 +83,7 @@ const Nav = () => {
                     placeholder="search here"
                     className="outline-none bg-transparent"
                 />
-                <button><CiSearch /></button>
+                <button className="font-semibold"><CiSearch /></button>
             </form>
         </div>
     </nav>
