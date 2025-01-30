@@ -17,12 +17,12 @@ const Nav = () => {
   return (
     <div>
       {/* desktop nav */}
-    <nav className="hidden md:flex items-center justify-evenly py-4 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
+    <nav className="hidden md:flex items-center justify-evenly py-4 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] bg-opacity-80/30 backdrop-blur-xl fixed z-50 w-full">
       <div>
         <ul className="flex items-center gap-6">
           <li className="">
             <div className="dropdown dropdown-hover">
-              <div tabIndex={0} role="button" className=" m-1 text-gray-500 hover:text-black ">
+              <div tabIndex={0} role="button" className=" m-1 text-black font-semibold">
                 Home
               </div>
               <ul
@@ -45,7 +45,7 @@ const Nav = () => {
 
           <li className="">
           <div className="dropdown dropdown-hover">
-              <div tabIndex={0} role="button" className=" m-1 text-gray-500 hover:text-black">
+              <div tabIndex={0} role="button" className=" m-1 text-black font-semibold">
                 Post
               </div>
               <ul
@@ -66,10 +66,10 @@ const Nav = () => {
             </div>
           </li>
           
-          <li className="text-gray-500 hover:text-black cursor-pointer">
+          <li className="text-black font-semibold cursor-pointer">
             About Me
           </li>
-          <li className="text-gray-500 hover:text-black cursor-pointer">
+          <li className="text-black font-semibold cursor-pointer">
             Contact Me
           </li>
         </ul>
@@ -81,7 +81,7 @@ const Nav = () => {
                 <input
                     type="text"
                     placeholder="search here"
-                    className="outline-none"
+                    className="outline-none bg-transparent"
                 />
                 <button><CiSearch /></button>
             </form>

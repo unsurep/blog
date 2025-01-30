@@ -8,7 +8,7 @@ import { SocialIcon } from "react-social-icons";
 
 const Blog=()=>{
   return(
-    <div className="px-[1rem] lg:px-[12rem] py-10">
+    <div className="px-[1rem] lg:px-[12rem] pt-24 py-10">
       <div className="flex items-center ">
         <h1 className="font-bold text-2xl md:text-4xl py-5">Louis's Blog.</h1>
 
